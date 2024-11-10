@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>milestone2</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>resume</h1>
+    <form id="resume-form">
+    <fieldset>
+        <legend>personal information</legend>
+        <label for="name">NAME</label>
+        <input type="text" placeholder="enter name" id="name">
+        <label for="email">email</label>
+        <input type="text" placeholder="enter email" id="email">
+        <label for="phone">phone</label>
+        <input type="tel" placeholder="enter number" id="phone">
+    </fieldset>
+    <fieldset>
+        <legend>education</legend>
+        <label for="education"> Education</label>
+        <textarea id="education" placeholder="enter ur text" rows="4"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>skill</legend>
+        <label for="skill"> skill</label>
+        <textarea id="skill" placeholder="enter work exprience" rows="4"></textarea>
+    </fieldset>
+    <button type="submit"><b>Genarate resume</b></button>
+</form>
+<br>
+
+<div id="resume-display">
+
+</div>
+<script src="script.js"></script>
+    
+</body>
+</html>
